@@ -193,7 +193,7 @@ void rtl_433_ESP::rtlSetup(r_cfg_t *cfg)
 #else
      
   memcpy(&cfg->devices[0], &ws2032, sizeof(r_device));
-  memcpy(&cfg->devices[1], &fineoffset_wh2, sizeof(r_device));
+  memcpy(&cfg->devices[1], &fineoffset_WH2, sizeof(r_device));
   memcpy(&cfg->devices[2], &new_template, sizeof(r_device));
   memcpy(&cfg->devices[3], &ambientweather_tx8300, sizeof(r_device));
 #endif
