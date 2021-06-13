@@ -114,7 +114,7 @@
  */
 #define DEVICES        \
   DECL(ws2032)    \
-  DECL(fineoffset_wh2) \
+  DECL(fineoffset_WH2) \
   DECL(new_template)       \
   DECL(ambientweather_tx8300) \
   /* Add new personal decoders here. */
