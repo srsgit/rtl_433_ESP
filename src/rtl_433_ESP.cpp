@@ -255,6 +255,7 @@ void rtl_433_ESP::initReceiver(byte inputPin, float receiveFrequency)
 
   ELECHOUSE_cc1101.Init();
   ELECHOUSE_cc1101.SetRx(receiveFrequency);
+  ELECHOUSE_cc1101.setRxBW(40000);
 #ifdef DEMOD_DEBUG
   logprintfLn(LOG_INFO, "CC1101 minumum rssi: %d", minimumRssi);
 #endif
